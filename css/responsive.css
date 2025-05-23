@@ -1,0 +1,132 @@
+@media screen and (max-width: 1799px) {
+
+    .left-bg-clip,
+    .right-bg-clip {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1399px) {}
+
+@media screen and (max-width: 1199px) {
+    .typography h1 {
+        font: 500 50px/60px var(--font-family-p1);
+    }
+
+    .typography h2 {
+        font: 500 30px/40px var(--font-family-p1);
+    }
+
+    .typography h3 {
+        font: 400 20px/26px var(--font-family-p2);
+    }
+
+    .typography h6 {
+        font: 500 18px/22px var(--font-family-p2);
+    }
+
+    .typography p {
+        font: 400 14px/30px var(--font-family-p2);
+    }
+
+    .hover-card .hover-text p {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .hover-card {
+        aspect-ratio: 407/500;
+    }
+
+    .navbar-brand img {
+        max-width: 101px;
+    }
+
+    .navigation-wrap ul {
+        margin: 30px 0;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .ab-grid,
+    .big-card-img,
+    .dropp-us .social-icon {
+        margin-bottom: 30px;
+    }
+
+    .about-us,
+    .customer-amazed,
+    .dropp-us,
+    .contact-form {
+        padding: 50px 0;
+    }
+
+    .show-case,
+    .our-training {
+        padding: 140px 0;
+    }
+
+    .our-training .text-wrap {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .gd-gal {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas: "a a b b c c"
+            "d d e e f f"
+            "g g h h . .  ";
+        gap: 20px;
+        border-radius: 10px;
+    }
+
+    .contact-wrap {
+        padding: 20px;
+    }
+
+    .first-col {
+        margin-bottom: 20px;
+    }
+
+    section.dropp-us.top-bt {
+        padding-bottom: 100px;
+    }
+    .two-img-sc .second-img{
+        position: unset;
+    }
+    .image-wrap.two-img-sc img{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .typography h1 {
+        font: 500 30px/40px var(--font-family-p1);
+    }
+
+    .typography h2 {
+        font: 500 24px/34px var(--font-family-p1);
+    }
+
+    .navbar-brand img {
+        max-width: 55px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .ab-grid {
+        grid-template-areas: "a a"
+            "b b"
+            "c c";
+        gap: 20px;
+    }
+
+    .ab-grid img {
+        aspect-ratio: 1/1;
+    }
+}
+
+@media screen and (max-width: 480px) {}
